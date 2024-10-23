@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toni Ramchandani - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        /* Container for the whole page */
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        /* Left sidebar */
+        .sidebar {
+            background-color: #357ABD;
+            color: white;
+            padding: 2.5rem;
+            width: 25%; /* Left panel 25% width */
+            box-sizing: border-box;
+            height: 100vh;
+            position: relative;
+        }
+        .sidebar img {
+            display: block;
+            margin: 0 auto 20px auto;
+            border-radius: 50%;
+            width: 150px;
+            border: 3px solid #fff;
+        }
+        .sidebar h2 {
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .sidebar p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #f0f0f0;
+            margin-bottom: 20px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0;
+        }
+        /* Style for titles in About Me */
+        .sidebar ul li.job-title {
+            font-family: 'Georgia', serif;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #f9f9f9;
+        }
+        /* Connect with me section styling */
+        .connect-links {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #f0f0f0;
+        }
+        .connect-links ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .connect-links ul li {
+            margin-bottom: 10px;
+        }
+        .connect-links ul li a {
+            color: white;
+            font-size: 1.1rem;
+            text-decoration: none;
+        }
+        .connect-links ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main content area */
+        .main-content {
+            width: 75%;
+            padding: 2rem;
+            background-color: white;
+            box-sizing: border-box;
+        }
+        .main-content h2 {
+            font-size: 2rem;
+            color: #4A90E2;
+        }
+        .main-content section {
+            margin-bottom: 2rem;
+        }
+        .main-content ul {
+            list-style-type: square;
+            padding-left: 1.5rem;
+        }
+        .main-content ul li {
+            font-size: 1.1rem;
+            margin-bottom: 0.8rem;
+        }
+        .main-content ul li a {
+            color: #4A90E2;
+            text-decoration: none;
+        }
+        .main-content ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Updated Book My Time Section - more compact and horizontal */
+        .book-my-time {
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #f0f8ff;
+            border: 2px solid #357ABD;
+            border-radius: 6px;
+            max-width: 100%; /* Utilize full width of left sidebar */
+        }
+        .book-my-time h3 {
+            color: #357ABD;
+            font-size: 1.4rem;
+            margin-bottom: 6px;
+        }
+        .book-my-time p {
+            font-size: 1.1rem;
+            color: #333;
+            margin-bottom: 6px;
+        }
+        .book-my-time a {
+            color: #357ABD;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .book-my-time a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Left Sidebar -->
+        <div class="sidebar">
+            <!-- Profile Picture -->
+            <img src="Toni.jpg" alt="Toni Ramchandani">
+            
+            <h2>About Me</h2>
+            <ul>
+                <li class="job-title">VP at MSCI Inc.</li>
+                <li class="job-title">Tech Delivery Head</li>
+                <li class="job-title">QA, DevSecOps, RPA-IPA</li>
+                <li class="job-title">AI Research Engineer</li>
+                <li class="job-title">Conference Speaker</li>
+                <li class="job-title">Corporate Trainer</li>
+                <li class="job-title">Driven by Technology & Adventure</li>
+            </ul>
+            
+            <!-- Connect Links -->
+            <div class="connect-links">
+                <h3>Connect with me:</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/toni-ramchandani/">LinkedIn</a></li>
+                    <li><a href="https://twitter.com/toniramchandani">Twitter</a></li>
+                    <li><a href="mailto:ramchandani.toni@gmail.com">Email</a></li>
+                    <li><a href="https://toniramchandani.medium.com/">Medium</a></li>
+                </ul>
+            </div>
+            <!-- Updated Book My Time Section -->
+            <div class="book-my-time">
+                <h3><a href="https://topmate.io/toni_ramchandani/" target="_blank">Book my time on Topmate</a></h3>
+                <p>You can book a time schedule a meeting or consultation with me, via Topmate</p>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Announcement Section -->
+            <div class="announcement">
+                <h3>Upcoming Book Announcement</h3>
+                <p>Stay tuned for my upcoming book, <strong>"A Generative Journey to AI"</strong>.</p>
+            </div>
+
+            <!-- Talks Section -->
+            <section>
+                <h2>Talks & Conferences</h2>
+                <ul>
+                    <li><strong><a href="https://www.youtube.com/watch?app=desktop&edufilter=NULL&v=6KXKpDpZL98" target="_blank">Automated Testing of AI-ML Models</a></strong> - Testμ 2024 | LambdaTest</li>
+                    <li><strong><a href="https://www.thetesttribe.com/testflix-2024-toni-ramchandani/" target="_blank">Vector Databases (Backbone of AI): Why QA Professionals Need to Care in the Age of AI?</a></strong> - TestFlix 2024</li>
+                    <li><strong><a href="https://testguild.com/automation-guild-2024/" target="_blank">Beyond Testing: Integrating DevOps and BizOps for Enhanced Automation Agility</a></strong> - Automation Guild 2024</li>
+                    <li><strong><a href="https://gtr2023.agiletestingalliance.org/toniramchandani/" target="_blank">Automation in QA: Global Testing Retreat 2023</a></strong> - Agile Testing Alliance</li>
+                    <li><strong>AI & Machine Learning Innovation Conference 2023</strong> - Presented strategies for integrating AI in modern practices</li>
+                    <li><strong>Future of AI in Technology 2023</strong> - Explored the latest advancements in AI-based tools and solutions</li>
+                </ul>
+            </section>
+
+            <!-- Workshops Section -->
+            <section>
+                <h2>Workshops</h2>
+                <ul>
+                    <li><strong><a href="https://www.thetesttribe.com/live-trainings/testing-ai-apps/" target="_blank">Testing AI Apps: Become a Future-Ready Tester!</a></strong> - Past Workshop</li>
+                    <li><strong>AI in Practice Workshop</strong> - Corporate training course on practical AI applications in enterprise environments</li>
+                    <li><strong>Mastering DevSecOps</strong> - Comprehensive workshop on securing DevOps pipelines with DevSecOps practices</li>
+                </ul>
+            </section>
+
+            <!-- Courses Section -->
+            <section>
+                <h2>Courses</h2>
+                <ul>
+                    <li><strong><a href="https://www.thetesttribe.com/courses/testing-ai-apps/" target="_blank">Creating & Testing AI Apps - GPT, LLMs, and More</a></strong> - Recorded Course</li>
+                </ul>
+            </section>
+
+                    </div>
+    </div>
+
+</body>
+</html>
